@@ -15,12 +15,12 @@ body {
     padding-left: 0;
 
     li {
-        width: 30%;
+        width: 33%;
         min-height: 200px;
-        margin: 0 1rem;
         display: inline-block;
         list-style-type: none;
-
+        text-align: center;
+        margin: 1rem 0;
 
 
         a {
@@ -30,7 +30,7 @@ body {
             min-height: 200px;
             background: url('http://placehold.it/200/200') center center no-repeat;
             background-color: #fff;
-            background-size: cover;
+            background-size: contain;
             transition: all 0.5s ease;
             text-indent: 1000px;
             white-space: nowrap;
@@ -45,6 +45,28 @@ body {
             &.admin1 {
                 background-image: url('../images/dashboard.png');
             }
+            &.ngkids {
+                background-image: url('../images/ngkids.jpg');
+            }
+            &.discokids {
+                background-image: url('../images/discokids.png');
+            }
+            &.gmaps {
+                background-image: url('../images/gmaps.png');
+            }
+            &.earth {
+                background-image: url('../images/earth.jpg');
+            }
+            &.wunderground {
+                background-image: url('../images/wunderground.png');
+            }
+            &.nasa {
+                background-image: url('../images/nasa.png');
+            }
+            &.astronomypod {
+                background-image: url('../images/astronomypod.jpg');
+            }
+
 
             &:hover, &:focus {
                 z-index: 42;
