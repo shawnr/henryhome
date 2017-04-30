@@ -7,11 +7,6 @@
   padding: 0.2em 0;
 }
 
-body {
-  padding: 0;
-  background: url('../images/purple-diamonds.jpg') repeat center center;
-}
-
 .navbar.navbar-henry, .navbar.navbar-henry .navbar-brand {
     font-family: 'Chicle', cursive;
     font-size: 4rem;
@@ -19,6 +14,30 @@ body {
 }
 .navbar.navbar-henry {
     background-color: $brand-purple;
+}
+
+body {
+    padding: 0;
+
+    &.diamonds {
+        background: url('../images/purple-diamonds.jpg') repeat center center;
+    }
+    &.bubbles {
+        background: url('../images/purple_bubbles.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    &.horizon {
+        background: url('../images/purple_horizon.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    &.motes {
+        background: url('../images/purple_motes.jpg') no-repeat center center;
+        background-size: cover;
+    }
+    &.wallpaper {
+        background: url('../images/purple_wallpaper.jpg') no-repeat center center;
+        background-size: cover;
+    }
 }
 
 .linklist {

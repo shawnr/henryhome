@@ -8,10 +8,13 @@
  * Controller of the henryhomeApp
  */
 angular.module('henryhomeApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($rootScope) {
+    var bodyClasses = [
+        'diamonds',
+        'bubbles',
+        'horizon',
+        'motes',
+        'wallpaper'
+    ]
+    $rootScope.bodyClass = bodyClasses[Math.floor(Math.random()*bodyClasses.length)];
   });
