@@ -430,7 +430,8 @@ module.exports = function (grunt) {
             'admin1/**',
             'CNAME',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'styles/fonts/{,*/}*.*',
+            'fonts/*'
           ]
         }, {
           expand: true,
