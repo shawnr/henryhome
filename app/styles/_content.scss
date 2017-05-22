@@ -27,7 +27,7 @@ body {
         background-size: cover;
     }
     &.horizon {
-        background: url('../images/purple_horizon.jpg') no-repeat center center;
+        background: url('../images/purple_horizon.png') no-repeat center center;
         background-size: cover;
     }
     &.motes {
@@ -94,6 +94,9 @@ body {
             }
             &.astronomypod {
                 background-image: url('../images/astronomypod.jpg');
+            }
+            &.sprout {
+                background-image: url('../images/sprout.jpg');
             }
 
 
