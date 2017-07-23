@@ -429,6 +429,7 @@ module.exports = function (grunt) {
             '*.html',
             'admin1/**',
             'pacman/**',
+            'tictactoe/**',
             'CNAME',
             'images/{,*/}*.{webp}',
             'styles/fonts/{,*/}*.*',
